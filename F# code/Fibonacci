@@ -1,0 +1,12 @@
+open System
+
+let rec Fibo n =
+  if n <= 1 then n
+  else Fibo(n - 1) + Fibo(n - 2)
+
+printf "Enther number please: "
+let input = System.Console.ReadLine()
+let number = int input
+
+let result = Fibo number
+printfn "The Fibo of number %d is the number : %d" number result
