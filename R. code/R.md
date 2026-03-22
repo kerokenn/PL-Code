@@ -7,10 +7,6 @@
 * Lazy Evaluation
 * Native missing data Handling
 * Extensive Graphics
-* Pattern Matching
-* First-Class Functions
-* Computations Expressions
-* Type Extensions
 
 ## Applications:
 
