@@ -1,0 +1,13 @@
+Fibo <- function(n){
+  if(n == 0 || n == 1){
+    return(n)
+  }else{
+    return(Fibo(n - 1) + Fibo(n - 2))
+  }
+}
+
+cat("Input a random number: ")
+input <- 10
+
+result <- Fibo(input)
+cat("The Fibo of number ", input," is the number: ", result)
