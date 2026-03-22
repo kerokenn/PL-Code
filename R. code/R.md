@@ -1,16 +1,20 @@
-R - was created by Ross Ihaka and Robert Gentleman in the early 1990s
-● February 29, 2000, R version 1.0.0 was officially released
+# R - was created by Ross Ihaka and Robert Gentleman in the early 1990s
+# February 29, 2000, R version 1.0.0 was officially released
 
-Features:
+## Features: 
 
-● Vectorization
-● Lazy Evaluation
-● Native Missing Data Handling
-● Extensive Graphics:
+* Vectorization
+* Lazy Evaluation
+* Native missing data Handling
+* Extensive Graphics
+* Pattern Matching
+* First-Class Functions
+* Computations Expressions
+* Type Extensions
 
-Applications:
+## Applications:
 
-● Bioinformatics & Genetics
-● Quantitative Finance
-● Academic Research
-● Environmental Science
+* Bioinformatics and Genetics
+* Quantitative finance
+* Academic Research
+* Environmental Science  
