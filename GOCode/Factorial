@@ -1,0 +1,24 @@
+package main
+
+import (
+	"fmt"
+)
+
+// Recursive function for factorial
+func factorial(n int) int {
+	if n == 0 || n == 1 {
+		return 1
+	}
+	return n * factorial(n-1)
+}
+
+func main() {
+	var num int
+
+	fmt.Print("Enter a number: ")
+	fmt.Scan(&num)
+
+	result := factorial(num)
+
+	fmt.Printf("The factorial of %d is: %d\n", num, result)
+}
