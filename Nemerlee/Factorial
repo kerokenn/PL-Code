@@ -1,0 +1,26 @@
+using System;
+using System.Console;
+
+module Program
+{
+    public factorial(n : int) : int
+    {
+        if (n <= 1) {
+            1
+        } else {
+            n * factorial(n - 1)
+        }
+    }
+
+    public Main() : Void
+    {
+        Write("Enter a number: ");
+        
+        def input = ReadLine();
+        def num = int.Parse(input); 
+        
+        def result = factorial(num);
+        
+        WriteLine($"The factorial of $num is: $result");
+    }
+}
